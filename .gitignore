@@ -44,7 +44,7 @@ Thumbs.db
 *.log
 logs/
 
-# Claude Code / Documentation privée
+# Documentation locale et config Claude (ne pas envoyer sur GitHub)
 CLAUDE.md
 .CLAUDE.md
 .claude/
