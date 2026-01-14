@@ -44,3 +44,9 @@ Thumbs.db
 *.log
 logs/
 
+# Claude Code / Documentation privée
+CLAUDE.md
+.CLAUDE.md
+.claude/
+docs/
+tmpclaude-*
