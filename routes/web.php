@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TableController;
 use App\Http\Controllers\ZoneController;
 use Illuminate\Support\Facades\Route;
 
@@ -24,6 +25,8 @@ Route::get('/dashboard', [DashboardController::class, 'index'])
 // Zones - Admin seulement (avec rate limiting)
 Route::middleware(['auth', 'role:admin', 'throttle:60,1'])->group(function () {
     Route::resource('zones', ZoneController::class)->except(['show']);
+    Route::resource('tables', TableController::class)->except(['show']);
+    Route::patch('tables/{table}/statut', [TableController::class, 'updateStatut'])->name('tables.statut');
 });
 
 // Routes protégées par authentification

@@ -27,9 +27,9 @@ export default {
                 },
                 anthracite: '#2E2E2E',
                 // Statuts des tables
-                'status-disponible': '#4CAF50',
-                'status-reservee': '#FF9800',
-                'status-occupee': '#F44336',
+                'statut-disponible': '#4CAF50',
+                'statut-reservee': '#FF9800',
+                'statut-occupee': '#F44336',
             },
             fontFamily: {
                 // Titres elegants
