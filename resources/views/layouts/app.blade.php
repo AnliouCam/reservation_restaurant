@@ -54,7 +54,7 @@
 
                 <!-- Footer -->
                 <footer class="bg-white border-t border-gray-200 py-4 px-6 text-center text-sm text-gray-500">
-                    &copy; {{ date('Y') }} {{ config('app.name', 'Restaurant') }}
+                    Developpe par <a href="https://wa.me/2250787606430" target="_blank" class="text-primary-600 hover:text-primary-800 transition-colors">Anliou Camara</a>
                 </footer>
             </div>
         </div>
